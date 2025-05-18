@@ -22,8 +22,15 @@
   "bin": {
     "mcp-server-chart": "./build/index.js"
   },
-  "files": ["build"],
-  "keywords": ["antv", "mcp", "data-visualization", "chart"],
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "antv",
+    "mcp",
+    "data-visualization",
+    "chart"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/antvis/mcp-server-chart"
@@ -38,7 +45,8 @@
     "axios": "^1.8.4",
     "axios-retry": "^4.5.0",
     "zod": "^3.24.4",
-    "zod-to-json-schema": "^3.24.5"
+    "zod-to-json-schema": "^3.24.5",
+    "mcp-evals": "^1.0.18"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
